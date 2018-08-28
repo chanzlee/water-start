@@ -64,9 +64,11 @@ $(document).ready(function(){
  carousel();
 
   $(".tablinks").click(function(){
-    $("button").next().slideUp("slow");
+    // clearQueue();
+    $(".collapse").slideUp("slow");
     // $(this).siblings("button").children("div").hide();
-    $(this).next().slideToggle("slow");
+    if ($(".collapse").prop("hidden", true;);
+    $(this).next(".collapse").slideDown("slow");
 
   });
 
