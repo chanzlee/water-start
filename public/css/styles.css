@@ -1,0 +1,44 @@
+#intro {
+  font-family: cursive;
+  text-align:center;
+}
+
+.tab-list {
+  height:70px;
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+
+.tablinks button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tablinks {
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.collapse {
+  display: none;
+}
+
+.rec-list-hidden {
+  display: none;
+}
