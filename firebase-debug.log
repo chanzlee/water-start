@@ -1,28 +1,24 @@
-[debug] [2018-08-28T18:07:41.327Z] ----------------------------------------------------------------------
-[debug] [2018-08-28T18:07:41.330Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-08-28T18:07:41.330Z] CLI Version:   4.2.0
-[debug] [2018-08-28T18:07:41.330Z] Platform:      darwin
-[debug] [2018-08-28T18:07:41.330Z] Node Version:  v8.11.4
-[debug] [2018-08-28T18:07:41.331Z] Time:          Tue Aug 28 2018 11:07:41 GMT-0700 (PDT)
-[debug] [2018-08-28T18:07:41.331Z] ----------------------------------------------------------------------
+[debug] [2018-08-29T20:03:49.384Z] ----------------------------------------------------------------------
+[debug] [2018-08-29T20:03:49.386Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-29T20:03:49.386Z] CLI Version:   4.2.0
+[debug] [2018-08-29T20:03:49.386Z] Platform:      darwin
+[debug] [2018-08-29T20:03:49.386Z] Node Version:  v8.11.4
+[debug] [2018-08-29T20:03:49.387Z] Time:          Wed Aug 29 2018 13:03:49 GMT-0700 (PDT)
+[debug] [2018-08-29T20:03:49.387Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-08-28T18:07:41.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-08-28T18:07:41.341Z] > authorizing via signed-in user
-[debug] [2018-08-28T18:07:41.343Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-08-28T18:07:41.343Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
-
-[debug] [2018-08-28T18:07:41.764Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-28T18:07:41.783Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/water-4b7ca  
+[debug] [2018-08-29T20:03:49.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-29T20:03:49.397Z] > authorizing via signed-in user
+[debug] [2018-08-29T20:03:49.399Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/water-4b7ca  
  
-[debug] [2018-08-28T18:07:42.245Z] <<< HTTP RESPONSE 200
-[debug] [2018-08-28T18:07:42.247Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/water-4b7ca  
+[debug] [2018-08-29T20:03:49.776Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-29T20:03:49.778Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/water-4b7ca  
  
-[debug] [2018-08-28T18:07:42.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-29T20:03:49.955Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from '/Users/goenchan/Desktop/water'...
+[info] === Serving from '/Users/goenchan/Desktop/water-start/water-start'...
 [info] 
-[debug] [2018-08-28T18:07:42.447Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/462023099172/clients/_:getWebAppConfig  
+[debug] [2018-08-29T20:03:49.959Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/462023099172/clients/_:getWebAppConfig  
  
-[debug] [2018-08-28T18:07:42.869Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-29T20:03:50.377Z] <<< HTTP RESPONSE 200
 [info] i  hosting[water-4b7ca]: Serving hosting files from: public
 [info] ✔  hosting[water-4b7ca]: Local server: http://localhost:5000
