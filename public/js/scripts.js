@@ -190,7 +190,7 @@ $(document).ready(function(){
           $(".rec-to-out:last").text(to);
           $(".rec-message-out:last").text(message);
           $(".cell").last().click(function(){
-            $(this).siblings().hide();
+            $(this).siblings().fadeToggle();
 
           });
         }
