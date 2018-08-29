@@ -1,6 +1,6 @@
-var slideIndex = 0;
-var images = [$("img.carouselImage1"),$("img.carouselImage2"),$("img.carouselImage3")];
 
+var slideIndex = 0;
+var images = [];
 function carousel() {
   var i;
   for (i = 0; i < images.length; i++) {
@@ -59,7 +59,11 @@ function Volunteer(name, city, age){
 
 //Front-end ///////////////////////////////////////////////
 $(document).ready(function(){
+  $("img.carouselImage").each(function(){
+  images.push($(this));
+});
   carousel();
+
 
   $(".tablinks").click(function(){
     // var clicked = this;
