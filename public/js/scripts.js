@@ -64,11 +64,15 @@ $(document).ready(function(){
  carousel();
 
   $(".tablinks").click(function(){
-    // clearQueue();
-    $(".collapse").slideUp("slow");
-    // $(this).siblings("button").children("div").hide();
-    if ($(".collapse").prop("hidden", true;);
-    $(this).next(".collapse").slideDown("slow");
+    // var clicked = this;
+    if($(this).next().is(":hidden")) {
+      console.log(this);
+      $(".collapse").slideUp("slow");
+      $(this).next(".collapse").slideDown("slow");
+    } else {
+      console.log(this);
+      $(".collapse").slideUp("slow");
+    }
 
   });
 
