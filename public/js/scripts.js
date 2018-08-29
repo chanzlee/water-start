@@ -191,6 +191,16 @@ $(document).ready(function(){
           $(".rec-message-out:last").text(message);
           $(".cell").last().click(function(){
             $(this).siblings().fadeToggle();
+            if (volCity === "Kinshasa") {$(".address1").show();
+} else if (volCity === "Lubumbashi") {$(".address2").show()
+  } else if (volCity === "Mbuji-Mayi") {$(".address3").show();
+    } else if (volCity === "Kananga") {$(".address4").show();
+      } else if (volCity === "Kisangani") {$(".address5").show();
+        } else if (volCity === "Goma") {$(".address6").show();
+          } else if (volCity === "Bukavu") {$(".address7").show();
+            } else if (volCity === "Tshikapa") {$(".address8").show();
+              } else if (volCity === "Masina") {$(".address9").show();
+                } else {$(".address10").show()};
 
           });
         }
