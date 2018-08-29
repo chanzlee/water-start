@@ -147,6 +147,20 @@ $(document).ready(function(){
       console.log(newVolunteer);
       console.log(volCity);
 
+      if (volCity === "Kinshasa") {$(".mapOfKinshasa").show();
+    } else if (volCity === "Lubumbashi") {$(".mapOfLubumbashi").show();
+
+
+
+      } else if (volCity === "Mbuji-Mayi") {$(".mapOfMbuji").show();
+        } else if (volCity === "Kananga") {$(".mapOfKananga").show();
+          } else if (volCity === "Kisangani") {$(".mapOfKisangani").show();
+            } else if (volCity === "Goma") {$(".mapOfGoma").show();
+              } else if (volCity === "Bukavu") {$(".mapOfBukavu").show();
+                } else if (volCity === "Tshikapa") {$(".mapOfTshikapa").show();
+                  } else if (volCity === "Masina") {$(".mapOfMasina").show();
+                    } else {$(".mapOfKolwezi").show();
+}
       var ref = database.ref(volCity);
       console.log(ref);
       ref.on("value", gotData, errData);
@@ -165,6 +179,8 @@ $(document).ready(function(){
           var to = recs[k].to;
           var message = recs[k].message;
 
+
+
           console.log(name, city);
           $(".rec-list").append(cellFormat);
           $(".rec-name-out:last").text(name);
@@ -173,6 +189,10 @@ $(document).ready(function(){
           $(".rec-from-out:last").text(from);
           $(".rec-to-out:last").text(to);
           $(".rec-message-out:last").text(message);
+          $(".cell").last().click(function(){
+            $(this).siblings().hide();
+
+          });
         }
       }
 

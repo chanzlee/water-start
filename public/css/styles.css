@@ -43,7 +43,54 @@
   display: none;
 }
 
-img {
+img.carouselImage {
   width:100%;
   height:590px;
+}
+img {
+  width:500;
+  height:250;
+}
+}
+.cell{
+  border-style: solid;
+  border-width: medium;
+  margin-top: 10px;
+}
+.collapse {
+  display: none;
+}
+
+.rec-list-hidden {
+  display: none;
+}
+.mapOfKinshasa {
+  display: none;
+}
+.mapOfLubumbashi{
+  display: none;
+}
+.mapOfMbuji{
+  display: none;
+}
+.mapOfKananga{
+  display: none;
+}
+.mapOfKisangani{
+  display: none;
+}
+.mapOfGoma{
+  display: none;
+}
+.mapOfBukavu{
+  display: none;
+}
+.mapOfTshikapa{
+  display: none;
+}
+.mapOfKolwezi{
+  display: none;
+}
+.mapOfMasina{
+  display: none;
 }
