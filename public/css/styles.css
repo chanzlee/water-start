@@ -83,35 +83,12 @@ img {
   display: none;
   margin-top: 5%;
 }
-.mapOfKinshasa {
+.mapOfKinshasa, .mapOfLubumbashi, .mapOfMbuji,  .mapOfKananga, .mapOfKisangani, .mapOfGoma, .mapOfGoma, .mapOfBukavu, .mapOfTshikapa, .mapOfKolwezi, .mapOfMasina {
   display: none;
+
 }
-.mapOfLubumbashi{
-  display: none;
-}
-.mapOfMbuji{
-  display: none;
-}
-.mapOfKananga{
-  display: none;
-}
-.mapOfKisangani{
-  display: none;
-}
-.mapOfGoma{
-  display: none;
-}
-.mapOfBukavu{
-  display: none;
-}
-.mapOfTshikapa{
-  display: none;
-}
-.mapOfKolwezi{
-  display: none;
-}
-.mapOfMasina{
-  display: none;
+.address1, .address2, .address3, .address4, .address5, .address6, .address7, .address8, .address9, .address10 {
+display:none;
 }
 
 .jumbotron {
