@@ -11,7 +11,6 @@
     crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="js/scripts.js"></script>
     <title>Receipient</title>
     <title>Helping the World</title>
@@ -86,7 +85,7 @@
                 <div class = "col-sm-6">
                   <div class="form-group">
 
-                    <label for="vol-name">Name:</label>
+                    <label id="margName" for="vol-name">Name:</label>
                     <input id="vol-name" class="form-control" type="text">
                   </div>
                   <!-- <div class="form-group">
@@ -172,11 +171,11 @@
                 <div class="rec-list">
                   <div class="cell" type = "button">
                     <h2><span class="rec-name-out">rec-name</span></h2>
-                    <p><span class="rec-city-out">rec-city</span></p>
-                    <p><span class="rec-people-out">20 people</span></p>
-                    <p><span class="rec-from-out">from today</span></p>
-                    <p><span class="rec-to-out">until tommorow</span></p>
-                    <p><span class="rec-message-out">
+                    <p>City: <span class="rec-city-out">rec-city</span></p>
+                    <p>Amount of people: <span class="rec-people-out">20 people</span></p>
+                    <p>From: <span class="rec-from-out">from today</span></p>
+                    <p>To: <span class="rec-to-out">until tommorow</span></p>
+                    <p id="bottom">Message: <span class="rec-message-out">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
                     </div>
                   </div>
@@ -192,7 +191,7 @@
                 <div class="form-container">
                   <form id="receipient">
 
-                    <div class="form-group">
+                    <div id="marg" class="form-group">
                       <label for="rec-name">Name:</label>
                       <input id="rec-name" class="form-control" type="text">
                     </div>
@@ -202,12 +201,12 @@
                     <input id="rec-age" class="form-control" type="number">
                   </div> -->
 
-                  <div class="form-group">
+                  <div id="marg" class="form-group">
                     <label for="rec-people">Number of people in need:</label>
                     <input id="rec-people" class="form-control" type="number">
                   </div>
 
-                  <div class="form-group">
+                  <div id="marg" class="form-group">
                     <label for="rec-city">City:</label>
                     <select class="form-control" id="rec-city">
                       <option value="Kinshasa">Kinshasa</option>
@@ -223,7 +222,7 @@
                     </select>
                   </div>
 
-                  <div class="form-group">
+                  <div id="marg" class="form-group">
                     <label for="rec-message">Message:</label>
                     <input id="rec-message" class="form-control" type="text">
                   </div>
@@ -247,17 +246,17 @@
             </select>
           </div> -->
 
-          <div class="form-group">
+          <div id="marg" class="form-group">
             <label for="rec-from">Start from:</label>
             <input id="rec-from" class="form-control" type="date">
           </div>
 
-          <div class="form-group">
+          <div id="marg" class="form-group">
             <label for="rec-to">Until:</label>
             <input id="rec-to" class="form-control" type="date">
           </div>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button id="marg" type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
 
