@@ -201,15 +201,15 @@ $(document).ready(function(){
       //On my second thought after writing, this is a bad analogy. Don't use this.
         $(".cell").last().click(function(){
           $(this).siblings().fadeToggle();
-          if (volCity === "Kinshasa") {$(".address1").show();
-          } else if (volCity === "Lubumbashi") {$(".address2").show()
-          } else if (volCity === "Mbuji-Mayi") {$(".address3").show();
-          } else if (volCity === "Kananga") {$(".address4").show();
-          } else if (volCity === "Kisangani") {$(".address5").show();
-          } else if (volCity === "Goma") {$(".address6").show();
-          } else if (volCity === "Bukavu") {$(".address7").show();
-          } else if (volCity === "Tshikapa") {$(".address8").show();
-          } else if (volCity === "Masina") {$(".address9").show();
+          if (volCity === "Kinshasa") {$(".address1").show("slow");
+          } else if (volCity === "Lubumbashi") {$(".address2").show("slow")
+          } else if (volCity === "Mbuji-Mayi") {$(".address3").show("slow");
+          } else if (volCity === "Kananga") {$(".address4").show("slow");
+          } else if (volCity === "Kisangani") {$(".address5").show("slow");
+          } else if (volCity === "Goma") {$(".address6").show("slow");
+          } else if (volCity === "Bukavu") {$(".address7").show("slow");
+          } else if (volCity === "Tshikapa") {$(".address8").show("slow");
+          } else if (volCity === "Masina") {$(".address9").show("slow");
           } else {$(".address10").show()};
         });
       }
