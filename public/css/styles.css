@@ -4,7 +4,7 @@
 }
 
 .tab-list {
-  height:70px;
+  height:50px;
 }
 
 .centered {
@@ -45,7 +45,7 @@ button:hover {
 
 img.carouselImage {
   width:100%;
-  height:590px;
+  height:420px;
 }
 img {
   width:500;
@@ -60,7 +60,8 @@ img {
   /* border-style: solid;
   border-width: medium; */
   margin-top: 10px;
-  background-image: linear-gradient(white, silver);
+  background-image: linear-gradient(silver, white);
+  cursor: pointer;
 
 }
 
@@ -89,9 +90,11 @@ img {
 .address1, .address2, .address3, .address4, .address5, .address6, .address7, .address8, .address9, .address10 {
 /* border-style: solid;
 border-width: medium; */
-margin-top: 10%;
+margin-top: 2%;
 display:none;
-background-image: linear-gradient(white, silver);
+background-image: linear-gradient(silver, white);
+padding-top: 3%;
+padding-left: 3%;
 
 }
 
@@ -128,4 +131,8 @@ iframe {
   margin-left: 1%;
   margin-right: 1%;
   padding-top:1%;
+}
+
+#marg2 {
+  margin-top: 3%;
 }
