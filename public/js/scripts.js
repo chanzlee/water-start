@@ -106,14 +106,13 @@ $(document).ready(function(){
     //2. Push the instance that recipient just created into the database
     ref.push(recInstance);
 
-    //3. CONSOLE LOG! It's very important to see whether it's really working right? So it was just two lines to push. Nevermind, again.
+    //3. CONSOLE LOG.  So it needs just two lines to push.
     console.log(recInstance);
 
 
     //Clearing all previous inputs on the recipient's input fields. Chan found this.
     $("#receipient")[0].reset();
   });
-
 
 
   //Q...? When do you use the saved data?
@@ -123,13 +122,13 @@ $(document).ready(function(){
   //When retrieving the database, we need to "format" to append and put datas inside that "format". So, for every data, append format, text data values. This format is called "cell" here and total dataset will be located inside "cell-list"
 
   //cellFormat below is hidden div just for copying its html tags and use it as a format.
-  var cellFormat = $(".rec-list:first").html();
-
+  var cellFormat = $(".format").html();
+  console.log(cellFormat);
 
   //Volunteer side function
   $("#volunteer").submit(function(event){
     event.preventDefault();
-
+    $(".hidden").show();
     var volName = $("#vol-name").val();
     var volCity = $("#vol-city").val();
     var volAge = $("#vol-age").val();
@@ -168,8 +167,9 @@ $(document).ready(function(){
 
     //With the "dataSnapshot" we got from the reference, we run gotData function.
     function gotData(data){
+
       console.log(data);
-      $(".rec-list").html("");
+      // $(".rec-list").html("");
       //value of dataSnapshot, is just object of objects. Very hard to make approach
       var recs = data.val();
       //So we breakdown this object with key arrays. Again, see the data tree to find out what these "keys" are.
@@ -188,7 +188,7 @@ $(document).ready(function(){
 
       // We build a jail with "format" and put this ganster's info inside there.
         console.log(name, city);
-        $(".rec-list").append(cellFormat);
+        $(".col-sm-6.append").append(cellFormat);
         $(".rec-name-out:last").text(name);
         $(".rec-city-out:last").text(city);
         $(".rec-people-out:last").text(people);

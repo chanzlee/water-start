@@ -71,7 +71,7 @@ img {
   padding-bottom: 3%;
 }
 
-.rec-list-hidden {
+.hidden {
   display: none;
   margin-top: 5%;
 }
@@ -87,6 +87,10 @@ display:none;
   text-align: center;
   box-shadow: 3px 3px 3px gray;
   background-color: #7986CB;
+}
+
+.format {
+  display: none;
 }
 
 form {
