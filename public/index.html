@@ -12,7 +12,7 @@
   <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
   <!-- Latest compiled and minified CSS -->
   <script src="js/scripts.js"></script>
-  <title>Receipient</title>
+  <title>RecIPIENT</title>
   <title>Helping the World</title>
 </head>
 <body>
@@ -116,7 +116,7 @@
               <option value="Kolwezi">Kolwezi(2,033km)</option>
 
             </select>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button id="vol-button" type="submit" class="btn btn-primary">Submit</button>
           </div>
           <div class = "col-sm-6" id="map">
             <div class = "mapOfKinshasa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d685170.722278656!2d15.104951877886414!3d-4.452751880934988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3130fe066a8b%3A0x168b7e4e1f52378d!2sKinshasa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535514183889" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -161,22 +161,29 @@
           </div>
         </div>
       </form>
-      <div class="container hidden">
+      <div class="hidden">
         <div class="jumbotron">
           <h1>Receipients Near You</h1>
         </div>
         <div class="rec-list">
-          <div class="cell row" type = "button">
+          <div class="row">
+
+
+          <div class="format">
+            <div class="cell">
+            <h2><span class="rec-name-out">rec-name</span></h2>
+            <p>City: <span class="rec-city-out">rec-city</span></p>
+            <p>Amount of people: <span class="rec-people-out">20 people</span></p>
+            <p>From: <span class="rec-from-out">from today</span></p>
+            <p>To: <span class="rec-to-out">until tommorow</span></p>
+            <p id="bottom">Message: <span class="rec-message-out">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+            </div>
+          </div>
+
+
             <div class="col-sm-6 append">
-              <div class="format">
-              <h2><span class="rec-name-out">rec-name</span></h2>
-              <p>City: <span class="rec-city-out">rec-city</span></p>
-              <p>Amount of people: <span class="rec-people-out">20 people</span></p>
-              <p>From: <span class="rec-from-out">from today</span></p>
-              <p>To: <span class="rec-to-out">until tommorow</span></p>
-              <p id="bottom">Message: <span class="rec-message-out">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
-              </div>
+
             </div>
               <div class = "col-sm-6 address">
                 <ul class = "address1">

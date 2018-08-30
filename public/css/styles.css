@@ -52,14 +52,14 @@ img {
   height:250;
 }
 
-.cell{
+.cell {
   border-style: solid;
   border-width: medium;
   margin-top: 10px;
 }
 
 .cell p {
-    margin-left:5%;
+  margin-left:5%;
 }
 
 .cell h2 {
@@ -75,6 +75,7 @@ img {
   display: none;
   margin-top: 5%;
 }
+
 .mapOfKinshasa, .mapOfLubumbashi, .mapOfMbuji,  .mapOfKananga, .mapOfKisangani, .mapOfGoma, .mapOfGoma, .mapOfBukavu, .mapOfTshikapa, .mapOfKolwezi, .mapOfMasina {
   display: none;
 
@@ -90,6 +91,7 @@ display:none;
 }
 
 .format {
+  cursor: pointer;
   display: none;
 }
 

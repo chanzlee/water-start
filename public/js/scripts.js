@@ -78,7 +78,7 @@ $(document).ready(function(){
 
 
 
-  //Prepare for pushing recipients user-inputs to firebase database! Nevermind. this just sets variable for convenience.
+  //Prepare for pushing recipients user-inputs to firebase database! Create new instance from database.
   var database = firebase.database();
 
 
@@ -129,13 +129,13 @@ $(document).ready(function(){
   $("#volunteer").submit(function(event){
     event.preventDefault();
     $(".hidden").show();
-    $("button").prop("disabled", true);
+    $("#vol-button").prop("disabled", true);
     var volName = $("#vol-name").val();
     var volCity = $("#vol-city").val();
     var volAge = $("#vol-age").val();
     var volFrom = $("#vol-from").val();
     var volTo = $("#vol-to").val();
-    // if (volAge <=18){alert("You are too young to go to Africa by yourself")}
+    if (volAge <=18){alert("You are too young to go to Africa by yourself")}
     var newVolunteer = new Volunteer(volName, volCity, volAge);
     console.log(newVolunteer);
     console.log(volCity);
