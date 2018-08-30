@@ -43,16 +43,16 @@ A website created to coordinate volunteers with recipients in need.
 
 ## Support and contact details
 
-_Ahmed Kohar: amkhokar@gmail.com  
+Ahmed Kohar: amkhokar@gmail.com  
 Akjol Jaenbai: akjolilgiz@gmail.com   
 Chan Lee: goenchan3@gmail.com  
 Steve Santos: steve.santos1508@gmail.com   
 Vera Weikel: vera.weikel@gmail.com
 
-Please contact with questions and/or comments._
+_Please contact with questions and/or comments._
 
 ### License
 
-*{This software is licensed under the MIT license}*
+*This software is licensed under the MIT license*
 
-Copyright (c) 2018 **_{Ahmed Kohar, Akjol Jaenbai, Chan Lee, Steve Santos, Vera Weikel}_**
+Copyright (c) 2018 **_Ahmed Kohar, Akjol Jaenbai, Chan Lee, Steve Santos, Vera Weikel_**
