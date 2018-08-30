@@ -20,6 +20,10 @@ function carousel() {
   // 3500 is for changing image every 3.5 seconds
 }
 
+function playSound() {
+  document.getElementById('buttonPush').play();
+}
+
 
 
 //the object, receipients will contain the receipient instances made through constructors with user-given inputs.
@@ -56,10 +60,12 @@ $(document).ready(function(){
   $(".tablinks").click(function(){
     // var clicked = this;
     if($(this).next().is(":hidden")) {
+      playSound();
       $(".collapse").slideUp("slow");
       $(this).next(".collapse").slideDown("slow");
     } else {
       $(".collapse").slideUp("slow");
+      playSound();
     }
   });
 
