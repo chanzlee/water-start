@@ -1,359 +1,327 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <script src="js/scripts.js"></script>
-    <title>Receipient</title>
-    <title>Helping the World</title>
-  </head>
-  <body>
-    <img class="carouselImage" src="img/backpacking.jpg" alt="img should appear here">
-    <img class="carouselImage" alt="img should appear here" src="img/Water_drop.jpg">
-    <img class="carouselImage" src="img/volunteerWork3.jpg" alt="Image of Volunteer Work">
-    <div class="centered">
-      <div id="intro">
-        <h2>Help the World Bloom one Experience at a Time</h2>
-        <p><em>You can transform lives for families</em></p>
-        <p><em> around the world. Every single</em></p> <p><em>penny will help bring</em></p><p><em> clean food to communities in need.</em></p>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <script src="js/scripts.js"></script>
+  <title>Receipient</title>
+  <title>Helping the World</title>
+</head>
+<body>
+  <img class="carouselImage" src="img/backpacking.jpg" alt="img should appear here">
+  <img class="carouselImage" alt="img should appear here" src="img/Water_drop.jpg">
+  <img class="carouselImage" src="img/volunteerWork3.jpg" alt="Image of Volunteer Work">
+  <div class="centered">
+    <div id="intro">
+      <h2>Help the World Bloom one Experience at a Time</h2>
+      <p><em>You can transform lives for families</em></p>
+      <p><em> around the world. Every single</em></p> <p><em>penny will help bring</em></p><p><em> clean food to communities in need.</em></p>
+    </div>
+  </div>
+  <div class="tab-list">
+    <!-- water-project-one //////////// //////////// //////////// //////////// -->
+    <button class="tablinks">Water Project One</button>
+    <div class="collapse container">
+      <div id="WaterProject1" class="tabcontent">
+        <h2>Water Project One</h2>
+        <p> There's a smart way to end the water crisis.
+          People around the Democratic Republic of Congo could get access to safe water in their homes with the help of volunteers and donations.</p>
+          <p>Fast Facts:</p>
+          <p>World Water Crisis</p>
+          <p>An Incredible Fact:</p>
+          <p>More people die from lack of clean drinking water than from all forms of violence combined... including war!</p>
+          <p><em>(United Nations)</em></p>
+          <p>Illness & Disease</p>
+          <p>Fully half of the hospital beds worldwide are occupied by someone suffering from a water-related illness.</p>
+          <p>80% of all diseases are waterborne.</p>
+          <p><em>(World Health Organization)</em></p>
+          <p>* At present, 2.4 billion people have inadequate access to sanitation... with nearly a billion people practicing open defecation.</p>
+          <p>* About 750 million people have no access to safe drinking water. This is a travesty!</p>
+          <p>* Diarrhea is the leading cause of death for children under 5 worldwide.</p>
+          <p>Naturally, these figures are changing daily, and they have improved since we started doing this work (it was over 1.2 billion without clean water then). This is encouraging, and it shows that we can actually solve this problem with the means at hand. And yet, there is a lot of work still to be done. With around 80 million displaced people at any given moment (more than at any time in history)... and with massive, seemingly-endless conflicts raging in many places... and knowing that no census style infrastructure exists in much of the world... exact numbers of people suffering are fairly well impossible. What is not impossible, is alleviating the needless suffering.Solving water issues is not difficult, doesn't take any new technology, and is not expensive... it just takes desire.</p>
       </div>
     </div>
-    <div class="tab-list">
-      <button class="tablinks">Water Project One</button>
-      <!-- Water Project1     -->
-      <div class="collapse container">
-        <div id="WaterProject1" class="tabcontent">
-          <h2>Water Project One</h2>
-          <p> There's a smart way to end the water crisis.
-            People around the Democratic Republic of Congo could get access to safe water in their homes with the help of volunteers and donations.</p>
-            <p>Fast Facts:</p>
-            <p>World Water Crisis</p>
-            <p>An Incredible Fact:</p>
-            <p>More people die from lack of clean drinking water than from all forms of violence combined... including war!</p>
-            <p><em>(United Nations)</em></p>
-            <p>Illness & Disease</p>
-            <p>Fully half of the hospital beds worldwide are occupied by someone suffering from a water-related illness.</p>
-            <p>80% of all diseases are waterborne.</p>
-            <p><em>(World Health Organization)</em></p>
-            <p>* At present, 2.4 billion people have inadequate access to sanitation... with nearly a billion people practicing open defecation.</p>
-            <p>* About 750 million people have no access to safe drinking water. This is a travesty!</p>
-            <p>* Diarrhea is the leading cause of death for children under 5 worldwide.</p>
-            <p>Naturally, these figures are changing daily, and they have improved since we started doing this work (it was over 1.2 billion without clean water then). This is encouraging, and it shows that we can actually solve this problem with the means at hand. And yet, there is a lot of work still to be done. With around 80 million displaced people at any given moment (more than at any time in history)... and with massive, seemingly-endless conflicts raging in many places... and knowing that no census style infrastructure exists in much of the world... exact numbers of people suffering are fairly well impossible. What is not impossible, is alleviating the needless suffering.Solving water issues is not difficult, doesn't take any new technology, and is not expensive... it just takes desire.</p>
+    <!--our-work //////////// //////////// //////////// //////////// -->
+    <button class="tablinks">Our Work</button>
+    <div class="collapse container">
+      <div id="ourWork" class="tabcontent">
+        <h2>Our Work</h2>
+        <p>Welcome to Water Project1, a 501(c)(3) nonprofit dedicated to helping people access clean drinking water. With our unique and extremely efficient method of operation, and an exemplary, transparent track record of sustainability, you will be hard pressed to find any charity, in any field, that can match our accomplishments.
+          Water Project1 is partnered with Doctors Without Borders.</p>
+      </div>
+    </div>
+    <!-- our-impact //////////// //////////// //////////// //////////// -->
+    <button class="tablinks">Our Impact</button>
+    <div class="collapse container">
+      <div id="ourImpact" class="tabcontent">
+        <h2>Our Impact</h2>
+        <p>That's where our organization comes in. We are here to bring safe water to people in need. There is both a need and demand for this, because when people have access to safe water, they get the capability to take nourish themselves and their family.
+          With your help, we will continue providing families with hope and health.</p>
+      </div>
+    </div>
+    <!-- get-involved //////////// //////////// //////////// //////////// -->
+    <button class="tablinks">Get Involved</button>
+    <div class="collapse container vol">
+
+      <div id="getInvolved" class="tabcontent">
+        <h2>Get Involved</h2>
+        <p>We often get asked, "What's the best way to help?" Our answer is simple: You don't have to fly to Africa to make a difference. In fact, the best way you can help is by staying right where you are. We need passionate people to spread awareness about the water crisis, then raise money to solve it. So roll up your sleeves and use that laptop you're holding. It's your most powerful tool.</p>
+        <h2>Volunteer</h2>
+        <p>Come to and join our cause by volunteering. Help out in our office, be a driver, help with deliveries and hang with other charity water supporters. Sign up to see where you fit in!
+          JOIN US AS A VOLUNTEER</p>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Volunteer Input</h1>
+      </div>
+        <form id="volunteer" class = "row">
+          <div class = "col-sm-6">
+            <div class="form-group">
+
+              <label id="margName" for="vol-name">Name:</label>
+              <input id="vol-name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="vol-age">Age:</label>
+              <input id="vol-age" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <div>
+                <label>Availability</label>
+              </div>
+              <label for="vol-from">Start:</label>
+              <input id="vol-from" class="form-control" type="date">
+              <label for="vol-to">End:</label>
+              <input id="vol-to" class="form-control" type="date">
+            </div>
+            <label>Pick a City:</label>
+            <select class="form-control" id="vol-city">
+              <option value="Kinshasa">Kinshasa</option>
+              <option value="Lubumbashi">Lubumbashi(2,334km)</option>
+              <option value="Mbuji-Mayi">Mbuji-Mayi(1,341km)</option>
+              <option value="Kananga">Kananga(1,178km)</option>
+              <option value="Kisangani">Kisangani(2,555km)</option>
+              <option value="Goma">Goma(2,568km)</option>
+              <option value="Bukavu">Bukavu(2,334km)</option>
+              <option value="Tshikapa">Tshikapa(906km)</option>
+              <option value="Masina">Masina(23.5km)</option>
+              <option value="Kolwezi">Kolwezi(2,033km)</option>
+
+            </select>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          <div class = "col-sm-6" id="map">
+            <div class = "mapOfKinshasa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d685170.722278656!2d15.104951877886414!3d-4.452751880934988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3130fe066a8b%3A0x168b7e4e1f52378d!2sKinshasa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535514183889" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <img src="img/kinshasa.jpg" width="500" height = "200" margin-bottom = "100">
+            </div>
+          <div class = "mapOfLubumbashi">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125032.68592486448!2d27.4321509097765!3d-11.675165499294666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723ea34874cbd9%3A0xa1c6f5a74f805b2f!2sLubumbashi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535515609490" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/lubumbashi.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfMbuji">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126946.39660756792!2d23.510138344119177!3d-6.120621671462019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19896dfa1316dfb3%3A0xf3ae8cd6e282edc3!2sMbuji-Mayi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535515657662" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/mbuji.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfKananga">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126946.39660756792!2d23.510138344119177!3d-6.120621671462019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19896dfa1316dfb3%3A0xf3ae8cd6e282edc3!2sMbuji-Mayi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535515657662" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/kananga.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfKisangani">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127668.85391818544!2d25.12208188606369!3d0.5236561587566892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1757a7333c4842bf%3A0xd0a33c1deddb9298!2sKisangani%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555089270" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/kisangani.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfGoma">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127620.68437747248!2d29.13806788714261!3d-1.6587683612948867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd0f5ff03ccf71%3A0x8702d152f9f905e7!2sGoma%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555181856" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/goma.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfBukavu">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63775.76366541552!2d28.81898324588145!3d-2.5117153814076416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c29a1109f99adf%3A0x4f473ed756f3e8c!2sBukavu%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555237895" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/bukavu.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfTshikapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63436.5350792196!2d20.75373100342037!3d-6.421864816590038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a24396dee280645%3A0xb04afd38d47d648c!2sTshikapa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555298188" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/tshikapa.jpg" width="500" height = "250" margin-bottom = "100">
+
+          </div>
+          <div class = "mapOfMasina">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63651.78206640342!2d15.359873099027917!3d-4.36673525417457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a37ce2bca343f%3A0x254df0b8e58c685c!2sMasina%2C+Kinshasa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555359911" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/masina.jpg" width="500" height = "250" margin-bottom = "100">
+          </div>
+          <div class = "mapOfKolwezi">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62722.20820020455!2d25.46296046567348!3d-10.723836809950175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1979e57971072e4f%3A0xa23ff3e3cd0d2277!2sKolwezi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555400622" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="img/kolwezi.jpg" width="500" height = "250" margin-bottom = "100">
           </div>
         </div>
-        <button class="tablinks">Our Work</button>
-        <!-- Our Work -->
-        <div class="collapse container">
-          <div id="ourWork" class="tabcontent">
-            <h2>Our Work</h2>
-            <p>Welcome to Water Project1, a 501(c)(3) nonprofit dedicated to helping people access clean drinking water. With our unique and extremely efficient method of operation, and an exemplary, transparent track record of sustainability, you will be hard pressed to find any charity, in any field, that can match our accomplishments.
-              Water Project1 is partnered with Doctors Without Borders.</p>
-            </div>
-          </div>
-          <button class="tablinks">Our Impact</button>
-          <!-- Our Impact -->
-          <div class="collapse container">
-            <div id="ourImpact" class="tabcontent">
-              <h2>Our Impact</h2>
-              <p>That's where our organization comes in. We are here to bring safe water to people in need. There is both a need and demand for this, because when people have access to safe water, they get the capability to take nourish themselves and their family.
-                With your help, we will continue providing families with hope and health.</p>
+      </form>
+      <div class="container rec-list-hidden">
+        <div class="jumbotron">
+          <h1>Receipients Near You</h1>
+        </div>
+        <div class="rec-list">
+          <div class="cell row" type = "button">
+            <div class = "col-sm-6">
+              <h2><span class="rec-name-out">rec-name</span></h2>
+              <p>City: <span class="rec-city-out">rec-city</span></p>
+              <p>Amount of people: <span class="rec-people-out">20 people</span></p>
+              <p>From: <span class="rec-from-out">from today</span></p>
+              <p>To: <span class="rec-to-out">until tommorow</span></p>
+              <p id="bottom">Message: <span class="rec-message-out">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+              </div>
+              <div class = "col-sm-6 address">
+                <ul class = "address1">
+                  <h3>Address:</h3>
+                  <li>Building ONATRA Offices</li>
+                  <li>Rez-de-chaussée - aile droite</li>
+                  <li>Boulevard du 30 juin</li>
+                  <li>Starcel 8802347</li>
+                  <li>Telephone	(243 12) 99 99 70 203</li>
+                  <li>(243 12) 08199 22666</li>
+                </ul>
+                <ul class = "address2">
+                  <h3>Address:</h3>
+                  <li>BCDC Building, 1st Floor Avenue Kasaï 701.</li>
+                  <li>Lubumbashi, Congo, Democratic Republic of.</li>
+                  <li>Telephone: [243] 999 309 902, 817 103 993.</li>
+                </ul>
+                <ul class = "address3">
+                  <h3>Address:</h3>
+                  <li>Mbuji-Mayi Capital Building TANKO.</li>
+                  <li>58 Avenue Cathédrale.</li>
+                  <li>Dibindi - Mbuji-Mayi, Kananga, Congo.</li>
+                  <li>+243 99 83 07 203.</li>
+                  <li>+243 81 50 79 200.</li>
+                </ul>
+                <ul class = "address4">
+                  <h3>Address:</h3>
+                  <li>Kananga Capital Building KAN.</li>
+                  <li>Avenue du Sapin n°16 Q Malandi Commume, Kananga, Congo.</li>
+                  <li>T	+243 31 45 88 475.</li>
+                  <li>F	+243 81 50 79 200.</li>
+                </ul>
+                <ul class = "address5">
+                  <h3>Address:</h3>
+                  <li>Capital Building at Kisangani.</li>
+                  <li>Address	Boîte Postale 2012.</li>
+                  <li>Kisangani.</li>
+                  <li>Tshopo.</li>
+                  <li>Congo DR.</li>
+                  <li>T	+243 31 45 88 475.</li>
+                  <li>F	+243 81 50 79 200.</li>
+                </ul>
+                <ul class = "address6">
+                  <h3>Address:</h3>
+                  <li>Capital Building at Goma.</li>
+                  <li>Address: 140 Boulevard Kanyamuhanga, Goma, Democratic Republic of the Congo.</li>
+                  <li>Phone: +243 813 129 560.</li>
+                </ul>
+                <ul class = "address7">
+                  <h3>Address:</h3>
+                  <li>Capital Building at Bukavu.</li>
+                  <li>Address: 21 Ave Kabare, Democratic Republic of the Cong, Bukavu, Congo.</li>
+                  <li>Phone: +243 995 762 566.</li>
+                </ul>
+                <ul class = "address8">
+                  <h3>Address:</h3>
+                  <li>Building ONATRA Offices</li>
+                  <li>Rez-de-chaussée - aile droite</li>
+                  <li>Boulevard du 30 juin</li>
+                  <li>Starcel 8802347</li>
+                  <li>Telephone	(243 12) 99 99 70 203</li>
+                  <li>(243 12) 08199 22666</li>
+                </ul>
+                <ul class = "address9">
+                  <h3>Address:</h3>
+                  <li>Capital Building at Kisangani.</li>
+                  <li>Address	Boîte Postale 2012.</li>
+                  <li>Kisangani.</li>
+                  <li>Tshopo.</li>
+                  <li>Congo DR.</li>
+                  <li>T	+243 31 45 88 475.</li>
+                  <li>F	+243 81 50 79 200.</li>
+                </ul>
+                <ul class = "address10">
+                  <h3>Address:</h3>
+                  <li>Capital Building at Kisangani.</li>
+                  <li>Address	Boîte Postale 2012.</li>
+                  <li>Kisangani.</li>
+                  <li>Tshopo.</li>
+                  <li>Congo DR.</li>
+                  <li>T	+243 31 45 88 475.</li>
+                  <li>F	+243 81 50 79 200.</li>
+                </ul>
               </div>
             </div>
-            <button class="tablinks">Get Involved</button>
-            <div class="collapse container vol">
-
-              <div id="getInvolved" class="tabcontent">
-                <h2>Get Involved</h2>
-                <p>We often get asked, "What's the best way to help?" Our answer is simple: You don't have to fly to Africa to make a difference. In fact, the best way you can help is by staying right where you are. We need passionate people to spread awareness about the water crisis, then raise money to solve it. So roll up your sleeves and use that laptop you're holding. It's your most powerful tool.</p>
-                <h2>Volunteer</h2>
-                <p>Come to and join our cause by volunteering. Help out in our office, be a driver, help with deliveries and hang with other charity water supporters. Sign up to see where you fit in!
-                  JOIN US AS A VOLUNTEER</p>
-                </div>
-
-                <div class="jumbotron">
-                  <h1>Volunteer Input</h1>
-                </div>
-                <form id="volunteer" class = "row">
-                <div class = "col-sm-6">
-                  <div class="form-group">
-
-                    <label id="margName" for="vol-name">Name:</label>
-                    <input id="vol-name" class="form-control" type="text">
-                  </div>
-                  <!-- <div class="form-group">
-                  <label for="vol-city">City:</label>
-                  <input id="vol-city" class="form-control" type="text">
-                </div> -->
-                <div class="form-group">
-                  <label for="vol-age">Age:</label>
-                  <input id="vol-age" class="form-control" type="text">
-                </div>
-                <div class="form-group">
-                  <div>
-                    <label>Availability</label>
-                  </div>
-                  <label for="vol-from">Start:</label>
-                  <input id="vol-from" class="form-control" type="date">
-                  <label for="vol-to">End:</label>
-                  <input id="vol-to" class="form-control" type="date">
-                </div>
-                <label>Pick a City:</label>
-                <select class="form-control" id="vol-city">
-                  <option value="Kinshasa">Kinshasa</option>
-                  <option value="Lubumbashi">Lubumbashi(2,334km)</option>
-                  <option value="Mbuji-Mayi">Mbuji-Mayi(1,341km)</option>
-                  <option value="Kananga">Kananga(1,178km)</option>
-                  <option value="Kisangani">Kisangani(2,555km)</option>
-                  <option value="Goma">Goma(2,568km)</option>
-                  <option value="Bukavu">Bukavu(2,334km)</option>
-                  <option value="Tshikapa">Tshikapa(906km)</option>
-                  <option value="Masina">Masina(23.5km)</option>
-                  <option value="Kolwezi">Kolwezi(2,033km)</option>
-
-                </select>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-              <div class = "col-sm-6" id="map">
-                <div class = "mapOfKinshasa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d685170.722278656!2d15.104951877886414!3d-4.452751880934988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3130fe066a8b%3A0x168b7e4e1f52378d!2sKinshasa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535514183889" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  <img src="img/kinshasa.jpg" width="500" height = "200" margin-bottom = "100">
-                </div>
-                <div class = "mapOfLubumbashi">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125032.68592486448!2d27.4321509097765!3d-11.675165499294666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723ea34874cbd9%3A0xa1c6f5a74f805b2f!2sLubumbashi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535515609490" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                      <img src="img/lubumbashi.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfMbuji">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126946.39660756792!2d23.510138344119177!3d-6.120621671462019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19896dfa1316dfb3%3A0xf3ae8cd6e282edc3!2sMbuji-Mayi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535515657662" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="img/mbuji.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfKananga">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126946.39660756792!2d23.510138344119177!3d-6.120621671462019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19896dfa1316dfb3%3A0xf3ae8cd6e282edc3!2sMbuji-Mayi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535515657662" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  <img src="img/kananga.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfKisangani">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127668.85391818544!2d25.12208188606369!3d0.5236561587566892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1757a7333c4842bf%3A0xd0a33c1deddb9298!2sKisangani%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555089270" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="img/kisangani.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfGoma">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127620.68437747248!2d29.13806788714261!3d-1.6587683612948867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd0f5ff03ccf71%3A0x8702d152f9f905e7!2sGoma%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555181856" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="img/goma.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfBukavu">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63775.76366541552!2d28.81898324588145!3d-2.5117153814076416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c29a1109f99adf%3A0x4f473ed756f3e8c!2sBukavu%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555237895" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-               <img src="img/bukavu.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfTshikapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63436.5350792196!2d20.75373100342037!3d-6.421864816590038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a24396dee280645%3A0xb04afd38d47d648c!2sTshikapa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555298188" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="img/tshikapa.jpg" width="500" height = "250" margin-bottom = "100">
-
-                </div>
-                <div class = "mapOfMasina">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63651.78206640342!2d15.359873099027917!3d-4.36673525417457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a37ce2bca343f%3A0x254df0b8e58c685c!2sMasina%2C+Kinshasa%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555359911" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="img/masina.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-                <div class = "mapOfKolwezi">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62722.20820020455!2d25.46296046567348!3d-10.723836809950175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1979e57971072e4f%3A0xa23ff3e3cd0d2277!2sKolwezi%2C+Democratic+Republic+of+the+Congo!5e0!3m2!1sen!2sus!4v1535555400622" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <img src="img/kolwezi.jpg" width="500" height = "250" margin-bottom = "100">
-                </div>
-              </div>
-              </form>
-              <div class="container rec-list-hidden">
-                <div class="jumbotron">
-                  <h1>Receipients Near You</h1>
-                </div>
-                <div class="rec-list">
-                  <div class="cell row" type = "button">
-                    <div class = "col-sm-6">
-                    <h2><span class="rec-name-out">rec-name</span></h2>
-                    <p>City: <span class="rec-city-out">rec-city</span></p>
-                    <p>Amount of people: <span class="rec-people-out">20 people</span></p>
-                    <p>From: <span class="rec-from-out">from today</span></p>
-                    <p>To: <span class="rec-to-out">until tommorow</span></p>
-                    <p id="bottom">Message: <span class="rec-message-out">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
-                    </div>
-                    <div class = "col-sm-6 address">
-                      <ul class = "address1">
-                        <h3>Address:</h3>
-                        <li>Building ONATRA Offices</li>
-                        <li>Rez-de-chaussée - aile droite</li>
-                        <li>Boulevard du 30 juin</li>
-                        <li>Starcel 8802347</li>
-                        <li>Telephone	(243 12) 99 99 70 203</li>
-                        <li>(243 12) 08199 22666</li>
-                      </ul>
-                      <ul class = "address2">
-                        <h3>Address:</h3>
-                        <li>BCDC Building, 1st Floor Avenue Kasaï 701.</li>
-                        <li>Lubumbashi, Congo, Democratic Republic of.</li>
-                        <li>Telephone: [243] 999 309 902, 817 103 993.</li>
-                      </ul>
-                      <ul class = "address3">
-                        <h3>Address:</h3>
-                        <li>Mbuji-Mayi Capital Building TANKO.</li>
-                        <li>58 Avenue Cathédrale.</li>
-                        <li>Dibindi - Mbuji-Mayi, Kananga, Congo.</li>
-                        <li>+243 99 83 07 203.</li>
-                        <li>+243 81 50 79 200.</li>
-                      </ul>
-                      <ul class = "address4">
-                        <h3>Address:</h3>
-                        <li>Kananga Capital Building KAN.</li>
-                        <li>Avenue du Sapin n°16 Q Malandi Commume, Kananga, Congo.</li>
-                        <li>T	+243 31 45 88 475.</li>
-                        <li>F	+243 81 50 79 200.</li>
-                      </ul>
-                      <ul class = "address5">
-                        <h3>Address:</h3>
-                        <li>Capital Building at Kisangani.</li>
-                        <li>Address	Boîte Postale 2012.</li>
-                        <li>Kisangani.</li>
-                        <li>Tshopo.</li>
-                        <li>Congo DR.</li>
-                        <li>T	+243 31 45 88 475.</li>
-                        <li>F	+243 81 50 79 200.</li>
-                      </ul>
-                      <ul class = "address6">
-                        <h3>Address:</h3>
-                        <li>Capital Building at Goma.</li>
-                        <li>Address: 140 Boulevard Kanyamuhanga, Goma, Democratic Republic of the Congo.</li>
-                        <li>Phone: +243 813 129 560.</li>
-                      </ul>
-                      <ul class = "address7">
-                        <h3>Address:</h3>
-                        <li>Capital Building at Bukavu.</li>
-                        <li>Address: 21 Ave Kabare, Democratic Republic of the Cong, Bukavu, Congo.</li>
-                        <li>Phone: +243 995 762 566.</li>
-                      </ul>
-                      <ul class = "address8">
-                        <h3>Address:</h3>
-                        <li>Building ONATRA Offices</li>
-                        <li>Rez-de-chaussée - aile droite</li>
-                        <li>Boulevard du 30 juin</li>
-                        <li>Starcel 8802347</li>
-                        <li>Telephone	(243 12) 99 99 70 203</li>
-                        <li>(243 12) 08199 22666</li>
-                      </ul>
-                      <ul class = "address9">
-                        <h3>Address:</h3>
-                        <li>Capital Building at Kisangani.</li>
-                        <li>Address	Boîte Postale 2012.</li>
-                        <li>Kisangani.</li>
-                        <li>Tshopo.</li>
-                        <li>Congo DR.</li>
-                        <li>T	+243 31 45 88 475.</li>
-                        <li>F	+243 81 50 79 200.</li>
-                      </ul>
-                      <ul class = "address10">
-                        <h3>Address:</h3>
-                        <li>Capital Building at Kisangani.</li>
-                        <li>Address	Boîte Postale 2012.</li>
-                        <li>Kisangani.</li>
-                        <li>Tshopo.</li>
-                        <li>Congo DR.</li>
-                        <li>T	+243 31 45 88 475.</li>
-                        <li>F	+243 81 50 79 200.</li>
-                      </ul>
-                    </div>
-                  </div>
-
-
-
-                  </div>
-                  <!-- end rec-list -->
-                </div>
-              </div>
-              <!-- ///////////////////////////////////////////// -->
-              <button class="tablinks">Ask for Help</button>
-              <div class="collapse container rec">
-                <div class="jumbotron">
-                  <h1>Recipient Input</h1>
-                </div>
-                <div class="form-container">
-                  <form id="receipient">
-
-                    <div id="marg" class="form-group">
-                      <label for="rec-name">Name:</label>
-                      <input id="rec-name" class="form-control" type="text">
-                    </div>
-
-                    <!-- <div class="form-group">
-                    <label for="rec-age">Age:</label>
-                    <input id="rec-age" class="form-control" type="number">
-                  </div> -->
-
-                  <div id="marg" class="form-group">
-                    <label for="rec-people">Number of people in need:</label>
-                    <input id="rec-people" class="form-control" type="number">
-                  </div>
-
-                  <div id="marg" class="form-group">
-                    <label for="rec-city">City:</label>
-                    <select class="form-control" id="rec-city">
-                      <option value="Kinshasa">Kinshasa</option>
-                      <option value="Lubumbashi">Lubumbashi</option>
-                      <option value="Mbuji-Mayi">Mbuji-Mayi</option>
-                      <option value="Kananga">Kananga</option>
-                      <option value="Kisangani">Kisangani</option>
-                      <option value="Goma">Goma</option>
-                      <option value="Bukavu">Bukavu</option>
-                      <option value="Tshikapa">Tshikapa</option>
-                      <option value="Masina">Masina</option>
-                      <option value="Kolwezi">Kolwezi</option>
-                    </select>
-                  </div>
-
-                  <div id="marg" class="form-group">
-                    <label for="rec-message">Message:</label>
-                    <input id="rec-message" class="form-control" type="text">
-                  </div>
-
-                  <!-- <div class="form-group">
-                  <label for="rec-lat">Latitude:</label>
-                  <input id="rec-lat" class="form-control" type="number">
-                </div>
-
-                <div class="form-group">
-                <label for="rec-lng">Longditude:</label>
-                <input id="rec-lng" class="form-control" type="number">
-              </div>
-
-              <div class="form-group">
-              <label for="rec-supplies">Supplies:</label>
-              <select class="form-control" id="rec-supplies">
-              <option>Water</option>
-              <option>Food</option>
-              <option>Education</option>
-            </select>
-          </div> -->
-
-          <div id="marg" class="form-group">
-            <label for="rec-from">Start from:</label>
-            <input id="rec-from" class="form-control" type="date">
           </div>
-
-          <div id="marg" class="form-group">
-            <label for="rec-to">Until:</label>
-            <input id="rec-to" class="form-control" type="date">
-          </div>
-
-          <button id="marg" type="submit" class="btn btn-primary">Submit</button>
-        </form>
+          <!-- end rec-list -->
+        </div>
       </div>
+      <!--ask-for-help //////////// //////////// //////////// //////////// -->
+      <button class="tablinks">Ask for Help</button>
+      <div class="collapse container rec">
+        <div class="jumbotron">
+          <h1>Recipient Input</h1>
+        </div>
+        <div class="form-container">
+          <form id="receipient">
 
+            <div id="marg" class="form-group">
+              <label for="rec-name">Name:</label>
+              <input id="rec-name" class="form-control" type="text">
+            </div>
+
+            <div id="marg" class="form-group">
+              <label for="rec-people">Number of people in need:</label>
+              <input id="rec-people" class="form-control" type="number">
+            </div>
+
+            <div id="marg" class="form-group">
+              <label for="rec-city">City:</label>
+              <select class="form-control" id="rec-city">
+                <option value="Kinshasa">Kinshasa</option>
+                <option value="Lubumbashi">Lubumbashi</option>
+                <option value="Mbuji-Mayi">Mbuji-Mayi</option>
+                <option value="Kananga">Kananga</option>
+                <option value="Kisangani">Kisangani</option>
+                <option value="Goma">Goma</option>
+                <option value="Bukavu">Bukavu</option>
+                <option value="Tshikapa">Tshikapa</option>
+                <option value="Masina">Masina</option>
+                <option value="Kolwezi">Kolwezi</option>
+              </select>
+            </div>
+
+            <div id="marg" class="form-group">
+              <label for="rec-message">Message:</label>
+              <input id="rec-message" class="form-control" type="text">
+            </div>
+
+            <div id="marg" class="form-group">
+              <label for="rec-from">Start from:</label>
+              <input id="rec-from" class="form-control" type="date">
+            </div>
+
+            <div id="marg" class="form-group">
+              <label for="rec-to">Until:</label>
+              <input id="rec-to" class="form-control" type="date">
+            </div>
+
+            <button id="marg" type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
       </div>
-    <!-- end of the rec div -->
-
+      <!-- end of the rec div -->
     </div>
-  <!-- end of tab list div -->
+    <!-- end of tab list div -->
 
-  <!-- end rec-list -->
+    <!-- end rec-list -->
   </body>
 </html>
