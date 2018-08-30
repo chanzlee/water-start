@@ -135,7 +135,13 @@ $(document).ready(function(){
     var volAge = $("#vol-age").val();
     var volFrom = $("#vol-from").val();
     var volTo = $("#vol-to").val();
-    if (volAge <=18){alert("You are too young to go to Africa by yourself")}
+    //user is a minor
+    if (volAge >= 13 && volAge < 18){
+      alert("Please have your legal guardian contact us as a volunteer first.")
+    } else {
+      alert("Please enter your age.")
+    } // user pressed enter, but the input field was empty
+
     var newVolunteer = new Volunteer(volName, volCity, volAge);
     console.log(newVolunteer);
     console.log(volCity);
