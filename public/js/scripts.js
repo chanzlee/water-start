@@ -129,6 +129,7 @@ $(document).ready(function(){
   $("#volunteer").submit(function(event){
     event.preventDefault();
     $(".hidden").show();
+    $("button").prop("disabled", true);
     var volName = $("#vol-name").val();
     var volCity = $("#vol-city").val();
     var volAge = $("#vol-age").val();
