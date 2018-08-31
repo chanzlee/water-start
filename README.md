@@ -14,11 +14,7 @@ A website created to coordinate volunteers with recipients in need.
 | :-------------     | :------------- | :------------- |
 | **Homepage** | User accesses:https://water-4b7ca.firebaseapp.com/ | User views:Landing Homepage | .  | .  | <img src="public/img/READMElandingPg.PNG">| .  |
 | **Program will be available to ~~Africa~~ Volunteers/Recipients in Congo.** | User selection: "City" | Output: "Chosen Congo City" |
-| **Program allocates a website visitor as "Volunteer" or "Recipient" based on their User Input**| User Input: | Output: |
-| ------------- | ------------- | ------------- | .  | .  |
-|  .  |"- [x] Volunteer  | "Volunteer Information Request Form" |
-|  .  |- [ ] Recipient" | .  | .  | .  |
-| .  |
+
 | **Program requests User information**| Input: "Jane Doe" | Output: "Jane Doe" |
 | **Program Assigns Recipients with Volunteers based on volunteer city of choice** | Input: "city choice" | Output: "available volunteer names" |
 
