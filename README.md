@@ -18,7 +18,7 @@ A website created to coordinate volunteers with recipients in need.
 | ------------- | ------------- | ------------- | .  | .  |
 |  .  |"- [x] Volunteer  | "Volunteer Information Request Form" |
 |  .  |- [ ] Recipient" | .  | .  | .  |
-<img src="public/img/READMEvolnForm.PNG>| .  |
+| .  |
 | **Program requests User information**| Input: "Jane Doe" | Output: "Jane Doe" |
 | **Program Assigns Recipients with Volunteers based on volunteer city of choice** | Input: "city choice" | Output: "available volunteer names" |
 
