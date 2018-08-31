@@ -141,12 +141,14 @@ $(document).ready(function(){
     var volAge = $("#vol-age").val();
     var volFrom = $("#vol-from").val();
     var volTo = $("#vol-to").val();
-    //user is a minor
-    if (volAge >= 13 && volAge < 18){
-      alert("Please have your legal guardian contact us as a volunteer first.")
-    } else {
+
+    if (volAge === ""){ // user pressed enter, but the input field was empty
       alert("Please enter your age.")
-    } // user pressed enter, but the input field was empty
+    } else if (volAge >= 0 && volAge < 13){ //user is a minor and restricted from volunteering
+      alert("You are too young to volunteer.")
+    } else if (volAge >= 13 && volAge < 18){ //user is a minor and able to volunteer with a legal guardian only
+       alert("Please have your legal guardian contact us as a volunteer first.")
+    }
 
     var newVolunteer = new Volunteer(volName, volCity, volAge);
     console.log(newVolunteer);
