@@ -14,7 +14,7 @@ A website created to coordinate volunteers with recipients in need.
 | :-------------     | :------------- | :------------- |
 | **Homepage** | User accesses:https://water-4b7ca.firebaseapp.com/ | User views:Landing Homepage | .  | .  |
 
-![Water Project One](https://github.com/goenchan/water-start/tree/master/public/img/READMElandingPg.PNG)
+<img src="https://github.com/goenchan/water-start/tree/master/public/img/READMElandingPg.PNG height=100 width=50">
 
 | .  |
 | **Program will be available to ~~Africa~~ Volunteers/Recipients in Congo.** | User selection: "City" | Output: "Chosen Congo City" |
@@ -23,7 +23,7 @@ A website created to coordinate volunteers with recipients in need.
 |  .  |"- [x] Volunteer  | "Volunteer Information Request Form" |
 |  .  |- [ ] Recipient" | .  |
 
-![Water Project One](https://github.com/goenchan/water-start/tree/master/public/img/READMEvolnForm.PNG)
+<img src="https://github.com/goenchan/water-start/tree/master/public/img/READMEvolnForm.PNG height=100 width=50">
 
 | .  | .  |
 | .  |
